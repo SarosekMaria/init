@@ -1,0 +1,2 @@
+#!/bin/sh
+/etc/init.d/ssh status | grep 'Main PID' | cut -d" " -f4

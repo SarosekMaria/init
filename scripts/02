@@ -1,0 +1,8 @@
+#!/bin/bash
+USER=$1
+my_pids=$(pgrep -u $USER)
+for pid in $my_pids
+do
+	kill $pid
+done
+deluser $USER

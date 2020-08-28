@@ -1,0 +1,12 @@
+#!/bin/bash
+path=/Users/sassassi/*
+for entity in $path
+do
+	if [ -d "$entity" ]
+	then
+		echo $entity is a directory
+	elif [ -f "$entity" ]
+	then
+		echo $entity is a file
+	fi
+done

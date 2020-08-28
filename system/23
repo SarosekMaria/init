@@ -1,0 +1,2 @@
+With graphic session: when the system booted up you should enter your login and password.
+With ssh session: you should type the command - ssh username@ip and then input your password.
